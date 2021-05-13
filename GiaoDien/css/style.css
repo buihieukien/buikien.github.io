@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* -----------------row1------------------ */
+.row1 {
+    background-color: #222222;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+  margin-right: 29px;
+  margin-top: 12px;
+  letter-spacing: 0.1em;
+}
+
+.nav-item{
+  display: inline-flex;
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(82, 82, 82);
+  letter-spacing: 0.01em;
+}
+
+.text-top{
+  margin-left: 24px;
+}
+
+
+/* ----------------row2----------- */
+
+.row2{
+    height: 80px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.franco {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.77em;
+  margin-left: 15px;
+
+  }
+  .logo {
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    left: 30px;
+    margin: 20px;
+    width: 196px;
+    height: 36px;
+    display: flex;
+    align-items: center; /*can giua theo chieu doc*/
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .item-menu{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(5, 2, 10);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+
+  .item-menu1{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(5, 2, 10);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 53px;
+  }
+
+  
+
+  .item-cart{
+      margin-right: 30px;
+  }
+
+  .menu{
+    margin-left: -189px;
+  }
+  .cart{
+    margin-right: 29px;
+  }
+
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: -1.5px;
+}
+
+  /* --------------row3------------- */
+  
+  .row3{
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+
+  }
+
+.ads1{
+    position: relative;
+}
+
+ .button-ads1{
+  position: absolute;
+  top: 319px;
+  right: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;  /*-----chinh div sang trai------*/
+ }
+
+ .ads2{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-left: 30px;
+ }
+  
+.title-ads1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.button1{
+    width: 105px;
+    height: 40px;
+    background-color: #8262b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button2{
+  width: 105px;
+  height: 40px;
+  background-color: #8262b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+.item-ads1{
+     font-family: "Myriad Pro";
+    color: white;
+    font-size: 16px;
+    margin-top: 3px;
+    letter-spacing: 0.5px;
+    margin-left: 1px;
+}
+
+.ads2-1{
+    position: relative;
+}
+
+.title-ads2-1{
+  position: absolute;
+  top: 80px;
+  left: 55px;
+}
+
+.title-ads2-2{
+  position: absolute;
+  top: 116px;
+  left: 38px;
+}
+
+.title-ads2{
+       font-family: 'Montserrat', sans-serif;
+    color: #616161;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 1px;
+    margin-top: 2px;
+    letter-spacing: 2.5px;
+}
+
+.title-ads3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:800 ;
+}
+
+/* -------------row4-------------- */
+
+.row4{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title-01{
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(130, 98, 181);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 71px;
+}
+
+.title-02{
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+  margin-left: -2px;
+}
+
+.product-1{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top:50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.btn{
+  position: absolute;
+  top: 277px;
+  left: 5px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  width: 118px;
+  font-size: 12px;
+  height: 40px;
+  padding-top: 14px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.product-2{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 47px;
+}
+
+.Product-name{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  margin-top: 13px;
+  letter-spacing: -0.4px;
+}
+
+  .price{
+    margin-top: 9px;
+    margin-left: 2px;
+  }
+  .price-02{
+    color: #8262b5;
+    font-size: 14px;
+    font-family: "Montserrat";
+  }
+
+  .price-01{
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: "Montserrat";
+  }
+
+  .product-02{
+    margin-left: 30px;
+    position: relative;
+  }
+
+  .product-01{
+    position: relative;
+  }
+
+  .star{
+    margin-top: 5px;
+  }
+
+  /* --------------row5--------------- */
+  
+  .row5{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 76px;
+    height: 710px;
+    background: url(../img/load.png);
+  }
+
+  .title-blog{
+    text-align: center;
+    margin-top: 79px;
+    margin-left: 5px;
+  }
+
+  .title-blog-01{
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: #8262b5;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+
+  .title-blog-02{
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 10px;
+  }
+
+  .blog{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 504px;
+    margin: 0 auto;
+    font-family: "Montserrat";
+  }
+
+
+  .text-blog{
+    height: 197px;
+    width: 360px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: -9px;
+    margin-left: -1px;
+    letter-spacing: 0.1px;
+  }
+
+  .text-blog-01{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    letter-spacing: -0.02em;
+}
+
+  
+  .text-blog-02{
+    letter-spacing: 0.019em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 66, 66);
+    margin-top: 14px;
+    line-height: 1.6;
+  }
+
+  .blog-0{
+    position: relative;
+  }
+
+  .comment{
+    border-top: 1px solid #ededed;
+    width: 361px;
+    height: 55px;
+    position: absolute;
+    left: -1px;
+    top: 333px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  /* -----------------row6--------------- */
+
+  .row6{
+    height: 425px;
+    background-color: #222222;
+    position: relative;
+  }
+  
+  .title{
+      color:#f7f7f7;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0.05em;
+  }
+
+  .content-footer-01{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.59;
+    letter-spacing: 0.018em;
+    color: rgb(136, 136, 136)
+  }
+
+  .content-footer-02{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: rgb(136, 136, 136);
+    width: 185px;
+    margin-left: 4px;
+    margin-top: -4px;
+  }
+
+  .content-footer-02 p{
+    line-height: 2.09;
+  }
+
+  .footer-01{
+      width: 270px;
+      margin-top: 57px;
+  }
+
+  .footer-02{
+    width: 370px;
+    margin-top: 63px;
+}
+  .footer{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .content-footer{
+    margin-top: 22px;
+    display: flex;
+    width: 262px;
+  }
+
+      
+.border {
+    background: #393939;
+    height: 1px;
+    border: none;
+    margin-top: 27px;
+  }
+
+  .copyright{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .copyright-01{
+    margin-left: 1px;
+    margin-top: -1px;
+  }
+
+  .women{
+      color: snow;
+      border-bottom: 1px solid white;
+      width: 50px;
+      height: 23px;
+      margin-top: 3px;
+  }
+
+  img{
+    max-width: 100%;
+  }
